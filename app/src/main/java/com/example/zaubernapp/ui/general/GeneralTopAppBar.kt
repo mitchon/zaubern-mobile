@@ -1,4 +1,4 @@
-package com.example.zaubernapp
+package com.example.zaubernapp.ui.general
 
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
@@ -8,7 +8,6 @@ import androidx.compose.material3.CenterAlignedTopAppBar
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
@@ -19,10 +18,11 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.zaubernapp.R
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ZaubernAppBar(
+fun GeneralTopAppBar(
     canNavigateUp: Boolean,
     canDropDown: Boolean,
     navigateUp: () -> Unit,
@@ -70,7 +70,7 @@ fun ZaubernAppBar(
 @Preview
 @Composable
 fun topBarPreview() {
-    ZaubernAppBar(canNavigateUp = true, canDropDown = true, navigateUp = { }, showDropDown = {})
+    GeneralTopAppBar(canNavigateUp = true, canDropDown = true, navigateUp = { }, showDropDown = {})
 }
 
 fun Modifier.topBarBorders() = composed (

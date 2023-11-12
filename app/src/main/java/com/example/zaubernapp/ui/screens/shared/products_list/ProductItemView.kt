@@ -1,4 +1,4 @@
-package com.example.zaubernapp.ui.views
+package com.example.zaubernapp.ui.screens.shared.products_list
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -25,7 +25,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.zaubernapp.states.ProductState
+import com.example.zaubernapp.ui.screens.product.ProductState
 import com.example.zaubernapp.ui.theme.onestFamily
 import java.util.UUID
 

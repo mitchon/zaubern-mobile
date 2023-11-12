@@ -1,6 +1,6 @@
 package com.example.zaubernapp.repositories
 
-import com.example.zaubernapp.states.ProductState
+import com.example.zaubernapp.ui.screens.product.ProductState
 import java.util.UUID
 
 object ProductsMockRepository: ProductsRepositoryInterface {

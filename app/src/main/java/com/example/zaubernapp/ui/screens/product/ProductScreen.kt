@@ -1,4 +1,4 @@
-package com.example.zaubernapp.ui.views.screens
+package com.example.zaubernapp.ui.screens.product
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
@@ -9,8 +9,8 @@ import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.zaubernapp.viewmodels.ProductViewModel
-import com.example.zaubernapp.viewmodels.ProductViewModelFactory
+import com.example.zaubernapp.ui.screens.product.ProductViewModel
+import com.example.zaubernapp.ui.screens.product.ProductViewModelFactory
 import java.util.UUID
 
 @Composable

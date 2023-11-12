@@ -1,7 +1,6 @@
-package com.example.zaubernapp.viewmodels
+package com.example.zaubernapp.ui.general
 
 import androidx.lifecycle.ViewModel
-import com.example.zaubernapp.states.GeneralState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

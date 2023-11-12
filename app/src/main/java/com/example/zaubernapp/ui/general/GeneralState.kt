@@ -1,4 +1,4 @@
-package com.example.zaubernapp.states
+package com.example.zaubernapp.ui.general
 
 data class GeneralState(
     val canNavigateUp: Boolean,

@@ -1,9 +1,8 @@
-package com.example.zaubernapp.viewmodels
+package com.example.zaubernapp.ui.screens.product
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.example.zaubernapp.repositories.ProductsMockRepository
-import com.example.zaubernapp.states.ProductState
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
